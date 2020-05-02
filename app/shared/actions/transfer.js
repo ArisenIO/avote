@@ -35,8 +35,8 @@ export function transfer(from, to, quantity, memo, symbol = 'RIX', private_key) 
         private_key:private_key
       })
       .then(function (response) {
-        console.log("shikhar response",response.data.result);
         var tx = response.data.result;
+
         dispatch(getCurrencyBalance(from));
         return dispatch({
           payload: { tx },
@@ -44,8 +44,9 @@ export function transfer(from, to, quantity, memo, symbol = 'RIX', private_key) 
         });
       })
       .catch(function (error) {
+        var err = error.response.data.error.json.error;
         dispatch({
-          payload: { error },
+          payload: { err },
           type: types.SYSTEM_TRANSFER_FAILURE
         })
       });
