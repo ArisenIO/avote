@@ -1,6 +1,6 @@
 {
-  "name": "avote",
-  "productName": "avote",
+  "name": "dwallet",
+  "productName": "dwallet",
   "version": "1.0.1",
   "description": "",
   "main": "./main.prod.js",

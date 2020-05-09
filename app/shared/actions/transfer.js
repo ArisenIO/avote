@@ -27,7 +27,7 @@ export function transfer(from, to, quantity, memo, symbol = 'RIX', private_key) 
       type: types.SYSTEM_TRANSFER_PENDING
     });
     try {
-       axios.post(`http://51.15.78.253:3001/avote/transfer`,{
+       axios.post(`http://51.15.78.253:3001/dwallet/transfer`,{
         from:from,
         to:to,
         quantity:quantity,

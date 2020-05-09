@@ -1,6 +1,6 @@
 {
-  "name": "aVote",
-  "productName": "aVote",
+  "name": "dWallet",
+  "productName": "dWallet",
   "version": "1.1.0",
   "description": "Simple light wallet and governance voting tool for the Arisen blockchain",
   "scripts": {
@@ -29,8 +29,8 @@
   },
   "browserslist": "electron 1.6",
   "build": {
-    "productName": "aVote",
-    "appId": "com.arisen.avote",
+    "productName": "dWallet",
+    "appId": "com.arisen.dwallet",
     "artifactName": "${os}-${productName}-${version}-${arch}.${ext}",
     "asar": true,
     "files": [
@@ -81,15 +81,15 @@
       "oneClick": false,
       "createDesktopShortcut": "always",
       "createStartMenuShortcut": true,
-      "shortcutName": "avote"
+      "shortcutName": "dwallet"
     },
     "linux": {
       "category": "Network",
       "description": "Simple light wallet and block Governance Voting tool for the Arisen blockchain",
       "desktop": {
-        "Name": "aVote",
-        "GenericName": "aVote",
-        "X-GNOME-FullName": "avote",
+        "Name": "dWallet",
+        "GenericName": "dWallet",
+        "X-GNOME-FullName": "dwallet",
         "Comment": "Simple light wallet and block Governance Voting tool for the Arisen blockchain",
         "Type": "Application",
         "Terminal": "false",
@@ -121,7 +121,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arisenio/avote.git"
+    "url": "git+https://github.com/arisenio/dwallet.git"
   },
   "author": {
     "name": "Arisen Community",
@@ -130,14 +130,14 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arisenio/avote/issues"
+    "url": "https://github.com/arisenio/dwallet/issues"
   },
   "keywords": [
     "arisen",
     "voting",
     "wallet"
   ],
-  "homepage": "https://github.com/arisenio/avote#readme",
+  "homepage": "https://github.com/arisenio/dwallet#readme",
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/internals/mocks/fileMock.js",

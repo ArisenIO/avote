@@ -46,11 +46,11 @@ export default class MenuBuilder {
 
   buildDarwinTemplate() {
     const subMenuAbout = {
-      label: 'aVote',
+      label: 'dWallet',
       submenu: [
         { role: 'about' },
         { type: 'separator' },
-        { label: 'Hide avote', accelerator: 'Command+H', selector: 'hide:' },
+        { label: 'Hide dwallet', accelerator: 'Command+H', selector: 'hide:' },
         { label: 'Hide Others', accelerator: 'Command+Shift+H', selector: 'hideOtherApplications:' },
         { label: 'Show All', selector: 'unhideAllApplications:' },
         { type: 'separator' },
@@ -95,9 +95,9 @@ export default class MenuBuilder {
     const subMenuHelp = {
       label: 'Help',
       submenu: [
-        { label: 'Source Code (Github)', click() { shell.openExternal('https://github.com/arisenio/avote'); } },
-        { label: 'Report Bug (Github)', click() { shell.openExternal('https://github.com/arisenio/avote/issues'); } },
-        { label: 'Releases (Github)', click() { shell.openExternal('https://github.com/arisenio/avote/releases'); } },
+        { label: 'Source Code (Github)', click() { shell.openExternal('https://github.com/arisenio/dwallet'); } },
+        { label: 'Report Bug (Github)', click() { shell.openExternal('https://github.com/arisenio/dwallet/issues'); } },
+        { label: 'Releases (Github)', click() { shell.openExternal('https://github.com/arisenio/dwallet/releases'); } },
         { type: 'separator' },
         { label: 'Check for Updates', click: (menuItem, browserWindow) => { checkForUpdates(menuItem, browserWindow); } }
       ]
@@ -167,9 +167,9 @@ export default class MenuBuilder {
     }, {
       label: 'Help',
       submenu: [
-        { label: 'Source Code (Github)', click() { shell.openExternal('https://github.com/arisenio/avote'); } },
-        { label: 'Report Bug (Github)', click() { shell.openExternal('https://github.com/arisenio/avote/issues'); } },
-        { label: 'Releases (Github)', click() { shell.openExternal('https://github.com/arisenio/avote/releases'); } },
+        { label: 'Source Code (Github)', click() { shell.openExternal('https://github.com/arisenio/dwallet'); } },
+        { label: 'Report Bug (Github)', click() { shell.openExternal('https://github.com/arisenio/dwallet/issues'); } },
+        { label: 'Releases (Github)', click() { shell.openExternal('https://github.com/arisenio/dwallet/releases'); } },
         { type: 'separator' },
         { label: 'Check Updates...', click: (menuItem, browserWindow) => { checkForUpdates(menuItem, browserWindow); } }
       ]

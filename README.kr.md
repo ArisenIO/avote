@@ -1,15 +1,15 @@
-[![version](https://img.shields.io/github/release/arisenio/avote/all.svg)](https://github.com/arisenio/avote/releases)
-[![issues](https://img.shields.io/github/issues/arisenio/avote.svg)](https://github.com/arisenio/avote/issues)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/arisenio/avote/master/LICENSE)
-![downloads](https://img.shields.io/github/downloads/arisenio/avote/total.svg)
+[![version](https://img.shields.io/github/release/arisenio/dwallet/all.svg)](https://github.com/arisenio/dwallet/releases)
+[![issues](https://img.shields.io/github/issues/arisenio/dwallet.svg)](https://github.com/arisenio/dwallet/issues)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/arisenio/dwallet/master/LICENSE)
+![downloads](https://img.shields.io/github/downloads/arisenio/dwallet/total.svg)
 
-[English](https://github.com/arisenio/avote/blob/master/README.md) - [한글](https://github.com/arisenio/avote/blob/master/README.kr.md) - [中文](https://github.com/arisenio/avote/blob/master/README.zh.md) - [日本語](https://github.com/arisenio/avote/blob/master/README.ja.md)
+[English](https://github.com/arisenio/dwallet/blob/master/README.md) - [한글](https://github.com/arisenio/dwallet/blob/master/README.kr.md) - [中文](https://github.com/arisenio/dwallet/blob/master/README.zh.md) - [日本語](https://github.com/arisenio/dwallet/blob/master/README.ja.md)
 
-# avote - RIX 블록 생산자 투표 및 지갑
+# dwallet - RIX 블록 생산자 투표 및 지갑
 
-`avote` 는 RIX 블록 체인을 위해 한정된 기능을 갖춘 라이트 지갑입니다. 이 프로그램을 사용하여 원격 RIX API 끝점에 연결할 수 있고, 블록생산자 투표 작업 및 몇 가지 기본 지갑 명령을 수행 할 수 있습니다.
+`dwallet` 는 RIX 블록 체인을 위해 한정된 기능을 갖춘 라이트 지갑입니다. 이 프로그램을 사용하여 원격 RIX API 끝점에 연결할 수 있고, 블록생산자 투표 작업 및 몇 가지 기본 지갑 명령을 수행 할 수 있습니다.
 
-[![avote screenshot](https://raw.githubusercontent.com/arisenio/avote/master/avote.png)](https://raw.githubusercontent.com/arisenio/avote/master/avote.png)
+[![dwallet screenshot](https://raw.githubusercontent.com/arisenio/dwallet/master/dwallet.png)](https://raw.githubusercontent.com/arisenio/dwallet/master/dwallet.png)
 
 ### 특징
 
@@ -19,30 +19,30 @@
 - **로컬 지갑**: 개인 키를 가져 오는 동안 비밀번호를 설정하여 로컬 월렛을 만드십시오. 이 비밀번호를 사용하여 키가 로컬에서 암호화됩니다. 이 비밀번호는 지갑 잠금을 해제해야 할 때마다 필요합니다.
 - **임시 사용하기**: 이 프로그램에 키를 저장하지 않으시려면 비밀번호를 설정하지 않기 만하면됩니다. 이 프로그램이 종료되면 키가 잊어 버리게 됩니다.
 
-## avote 받기
+## dwallet 받기
 
 ### 가장 최근 버전
 
 현재 1.0.0 버전 다운로드 :
 
-- [Windows 사용자](https://github.com/arisenio/avote/releases/download/v1.1.0/win-avote-1.0.0.exe)
-- [macOS 사용자](https://github.com/arisenio/avote/releases/download/v1.1.0/mac-avote-1.0.0.dmg)
-- [Linux 사용자 (deb)](https://github.com/arisenio/avote/releases/download/v1.1.0/linux-avote-1.0.0-amd64.snap)
-- [Linux 사용자 (snap)](https://github.com/arisenio/avote/releases/download/v1.1.0/linux-avote-1.0.0-amd64.snap)
+- [Windows 사용자](https://github.com/arisenio/dwallet/releases/download/v1.1.0/win-dwallet-1.0.0.exe)
+- [macOS 사용자](https://github.com/arisenio/dwallet/releases/download/v1.1.0/mac-dwallet-1.0.0.dmg)
+- [Linux 사용자 (deb)](https://github.com/arisenio/dwallet/releases/download/v1.1.0/linux-dwallet-1.0.0-amd64.snap)
+- [Linux 사용자 (snap)](https://github.com/arisenio/dwallet/releases/download/v1.1.0/linux-dwallet-1.0.0-amd64.snap)
 
 최신 버전은 항상이 저장소의 릴리스 페이지에서 제공됩니다:
 
-[https://github.com/arisenio/avote/releases](https://github.com/arisenio/avote/releases)
+[https://github.com/arisenio/dwallet/releases](https://github.com/arisenio/dwallet/releases)
 
 필요한 파일을 결정하시려면,...
 
-- **MacOS 사용자**: DMG (`avote-***.dmg`) 또는 ZIP (`avote-***-mac.zip`) 다운로드 받기.
-- **Windows 사용자**: EXE (`avote-***.exe`) 다운로드 받기.
-- **Linux 사용자**: SNAP (`avote-***-_amd64.snap`) 또는 DEB (`avote-***-_amd64.deb`) 다운로드 받기.
+- **MacOS 사용자**: DMG (`dwallet-***.dmg`) 또는 ZIP (`dwallet-***-mac.zip`) 다운로드 받기.
+- **Windows 사용자**: EXE (`dwallet-***.exe`) 다운로드 받기.
+- **Linux 사용자**: SNAP (`dwallet-***-_amd64.snap`) 또는 DEB (`dwallet-***-_amd64.deb`) 다운로드 받기.
 
 ### 보안: 개인 키
 
-`avote`를 사용할 때 본 프로그램 내에서 모든 거래가 서명이되고 키는 전송되지 않습니다. 로컬 월렛 비밀번호가 지정되면 본 프로그램에 AES-256 암호화를 사용하여 나중에 사용할 수 있도록 키를 저장합니다. 현재 비밀번호 / 키 암호화 체계는 [현재 여기에 있습니다](https://github.com/aaroncox/avote/blob/master/app/shared/actions/wallet.js#L71-L86).
+`dwallet`를 사용할 때 본 프로그램 내에서 모든 거래가 서명이되고 키는 전송되지 않습니다. 로컬 월렛 비밀번호가 지정되면 본 프로그램에 AES-256 암호화를 사용하여 나중에 사용할 수 있도록 키를 저장합니다. 현재 비밀번호 / 키 암호화 체계는 [현재 여기에 있습니다](https://github.com/aaroncox/dwallet/blob/master/app/shared/actions/wallet.js#L71-L86).
 
 ### 직접 빌드하십시오.
 
@@ -51,8 +51,8 @@
 **주**: Windows 개발 환경에서이 Electron 어플리케이션을 구성하는 경우 추가 단계가 필요합니다.
 
 ```
-git clone https://github.com/arisenio/avote.git avote
-cd avote
+git clone https://github.com/arisenio/dwallet.git dwallet
+cd dwallet
 yarn install
 ```
 
@@ -68,8 +68,8 @@ yarn install
 ### 개발 모드
 
 ```
-git clone https://github.com/arisenio/avote.git avote
-cd avote
+git clone https://github.com/arisenio/dwallet.git dwallet
+cd dwallet
 yarn install
 yarn dev
 ```
@@ -88,24 +88,24 @@ Signed by [jesta on keybase](https://keybase.io/jesta)
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-shasum -b -a 512 linux-avote-1.0.0-amd64.deb
-e55fc9fb53d0e8bd25f4e972a5fd8563086af50b6d6386b6597e9fbf39bfa7704d43f1778f236fe5e56b548eb7ce8a01ebd16884e787d68661475057636ec55e *linux-avote-1.0.0-amd64.deb
-shasum -b -a 512 linux-avote-1.0.0-amd64.snap
-02ba35cd83b00d13f3417c2ec7e4de1beae4f12f86cf156131683a067faa44b54c859e76f8aa6d57c245fc1d21437e347c1e1be077d2a319329967a67db23b30 *linux-avote-1.0.0-amd64.snap
-shasum -b -a 512 linux-avote-1.0.0-arm64.deb
-bfe806be8914feee01c319d107249f02f755e93b5ae270ed32ef25ae69d48bfb04379d65329ac5209baf2ff082c98c17de668d7f735826fdd6177550d50b4431 *linux-avote-1.0.0-arm64.deb
-shasum -b -a 512 linux-avote-1.0.0-armv7l.deb
-fe3ee24882e1ceb68e44536785d6d2cf1b2290a20bf1d721ffa3e36de46e7bae89de43e3bc29b2762b81abc1d1a0b68d0f494d6532305aa9433aebbadfaddba9 *linux-avote-1.0.0-armv7l.deb
-shasum -b -a 512 linux-avote-1.0.0-i386.deb
-7feffaeb0b6c1439b6be3a3ca6589eecf318cde40d1ac6bf16dbaefa52ef3b45b3a46ed1f5e0274922c119e32915855b533f85a71ca03474a826030269a44108 *linux-avote-1.0.0-i386.deb
-shasum -b -a 512 linux-avote-1.0.0-x86_64.AppImage
-8a73895f0709880de8b9b61693a28ed9813978001b6be7a63e599f52c091003f5bda7c7c69191270e4f25c2ec4b3d2cc22d49b777d206353bd4095b505b32bb6 *linux-avote-1.0.0-x86_64.AppImage
-shasum -b -a 512 mac-avote-1.0.0.dmg
-272104b0bd785137c399426dae6d3a555501f7fdcd2625114522d1230346639467e6ca803207f7af976a32a4d66277d202528eb1329a31a877b1dc79dac45eda *mac-avote-1.0.0.dmg
-shasum -b -a 512 mac-avote-1.0.0.zip
-1f8a6d4c294b29a291427a71939e6d31ee5474927f644776a008af806e1a2221c98ca97fba924a6b6c6d1bdc9290a56011a6cc00ea23d9c8ff5557319bd67584 *mac-avote-1.0.0.zip
-shasum -b -a 512 win-avote-1.0.0.exe
-83cbbd44bd5bc54f41b12b2ac2948fdbf21d0932cb4e845e6d3ff5adc02fb1e039763b3a3a08e9cdf556c8e234af492bc9178897699b6012017200c798fc2e98 *win-avote-1.0.0.exe
+shasum -b -a 512 linux-dwallet-1.0.0-amd64.deb
+e55fc9fb53d0e8bd25f4e972a5fd8563086af50b6d6386b6597e9fbf39bfa7704d43f1778f236fe5e56b548eb7ce8a01ebd16884e787d68661475057636ec55e *linux-dwallet-1.0.0-amd64.deb
+shasum -b -a 512 linux-dwallet-1.0.0-amd64.snap
+02ba35cd83b00d13f3417c2ec7e4de1beae4f12f86cf156131683a067faa44b54c859e76f8aa6d57c245fc1d21437e347c1e1be077d2a319329967a67db23b30 *linux-dwallet-1.0.0-amd64.snap
+shasum -b -a 512 linux-dwallet-1.0.0-arm64.deb
+bfe806be8914feee01c319d107249f02f755e93b5ae270ed32ef25ae69d48bfb04379d65329ac5209baf2ff082c98c17de668d7f735826fdd6177550d50b4431 *linux-dwallet-1.0.0-arm64.deb
+shasum -b -a 512 linux-dwallet-1.0.0-armv7l.deb
+fe3ee24882e1ceb68e44536785d6d2cf1b2290a20bf1d721ffa3e36de46e7bae89de43e3bc29b2762b81abc1d1a0b68d0f494d6532305aa9433aebbadfaddba9 *linux-dwallet-1.0.0-armv7l.deb
+shasum -b -a 512 linux-dwallet-1.0.0-i386.deb
+7feffaeb0b6c1439b6be3a3ca6589eecf318cde40d1ac6bf16dbaefa52ef3b45b3a46ed1f5e0274922c119e32915855b533f85a71ca03474a826030269a44108 *linux-dwallet-1.0.0-i386.deb
+shasum -b -a 512 linux-dwallet-1.0.0-x86_64.AppImage
+8a73895f0709880de8b9b61693a28ed9813978001b6be7a63e599f52c091003f5bda7c7c69191270e4f25c2ec4b3d2cc22d49b777d206353bd4095b505b32bb6 *linux-dwallet-1.0.0-x86_64.AppImage
+shasum -b -a 512 mac-dwallet-1.0.0.dmg
+272104b0bd785137c399426dae6d3a555501f7fdcd2625114522d1230346639467e6ca803207f7af976a32a4d66277d202528eb1329a31a877b1dc79dac45eda *mac-dwallet-1.0.0.dmg
+shasum -b -a 512 mac-dwallet-1.0.0.zip
+1f8a6d4c294b29a291427a71939e6d31ee5474927f644776a008af806e1a2221c98ca97fba924a6b6c6d1bdc9290a56011a6cc00ea23d9c8ff5557319bd67584 *mac-dwallet-1.0.0.zip
+shasum -b -a 512 win-dwallet-1.0.0.exe
+83cbbd44bd5bc54f41b12b2ac2948fdbf21d0932cb4e845e6d3ff5adc02fb1e039763b3a3a08e9cdf556c8e234af492bc9178897699b6012017200c798fc2e98 *win-dwallet-1.0.0.exe
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.0.77
 Comment: https://keybase.io/crypto

@@ -129,7 +129,7 @@ const migrations = {
 };
 
 const persistConfig = {
-  key: 'avote-config',
+  key: 'dwallet-config',
   version: 6,
   migrate: createMigrate(migrations, { debug: true }),
   storage: createElectronStorage(),

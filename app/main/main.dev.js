@@ -56,7 +56,7 @@ if (process.env.NODE_ENV === 'development' || process.env.DEBUG_PROD === 'true')
 
 // crash reporter for failures (NYI)
 crashReporter.start({
-  productName: 'avote',
+  productName: 'dwallet',
   companyName: '',
   submitURL: '',
   uploadToServer: false

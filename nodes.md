@@ -1,12 +1,12 @@
 ## Decentralized banking network node Recommendations
 
-`aVote` is a light wallet, which means it relies on an external Decentralized banking network node connected to the Arisen blockchain network in order to function.
+`dWallet` is a light wallet, which means it relies on an external Decentralized banking network node connected to the Arisen blockchain network in order to function.
 
 The list below contains Arisen Decentralized banking network nodes run by members of the Arisen community that you can choose from.
 
 ### Privacy
 
-Even though your keys never leave the `aVote` applications, the Decentralized banking network node you connect to can still reveal personally identifiable information about you. This information may include:
+Even though your keys never leave the `dWallet` applications, the Decentralized banking network node you connect to can still reveal personally identifiable information about you. This information may include:
 
 - Account Names
 - IP Addresses
